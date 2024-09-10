@@ -12,8 +12,8 @@ myClass = "Computer Science";
 Console.WriteLine("Part 1:");
 Console.WriteLine("");
 Console.WriteLine("My classroom number is " + myRoom);
-Console.WriteLine("The price is " +myPrice);
-Console.WriteLine("I'm currently learning " +myClass);
+Console.WriteLine("The price is " + myPrice);
+Console.WriteLine("I'm currently learning " + myClass);
 Console.WriteLine("");
 Console.WriteLine("Press enter to move to part 2...");
 Console.ReadLine();
@@ -29,10 +29,18 @@ myName = "Sak";
 
 Console.WriteLine("Part 2:");
 Console.WriteLine("");
-Console.WriteLine("My name is " +myName + " and I'll graduate in " +gradYear);
+Console.WriteLine("My name is " + myName + " and I'll graduate in " + gradYear);
 Console.WriteLine("");
 Console.WriteLine("Press enter to move to part 3...");
 Console.ReadLine();
 Console.Clear();
 
 //Part 3
+double cRadius;
+double cArea;
+double finalC;
+cRadius = 3;
+cArea = ((cRadius * cRadius) * (3.14));
+finalC = Math.Round(cArea, 1);
+
+Console.WriteLine("The area of the circle is " + finalC);
