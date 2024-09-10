@@ -36,11 +36,12 @@ Console.ReadLine();
 Console.Clear();
 
 //Part 3
-double cRadius;
+double cRadius; //cuz the input number could have a decimal that why I put double instead of an int.
 double cArea;
-double finalC;
+double finalC; // this is only used for rounding.
 cRadius = 3;
 cArea = ((cRadius * cRadius) * (3.14));
 finalC = Math.Round(cArea, 1);
 
-Console.WriteLine("The area of the circle is " + finalC);
+Console.WriteLine(("If a circle has a radius of " + cArea) + (" then the area of the circle is " + finalC));
+Console.ReadLine();
