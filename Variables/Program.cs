@@ -1,47 +1,46 @@
 //S.B
 
-//Part 1
+//part 1: some info like room, price, class
 int myRoom;
 double myPrice;
 string myClass;
 
-myRoom = 113;
-myPrice = 2.99;
-myClass = "Computer Science";
+myRoom = 113; // room num
+myPrice = 2.99; // price of sumthin
+myClass = "computer science"; // class name
 
-Console.WriteLine("Part 1:");
-Console.WriteLine("");
-Console.WriteLine("My classroom number is " + myRoom);
-Console.WriteLine("The price is " + myPrice);
-Console.WriteLine("I'm currently learning " + myClass);
-Console.WriteLine("");
-Console.WriteLine("Press enter to move to part 2...");
+// output stuff
+Console.WriteLine("part 1:");
+Console.WriteLine("my room is " + myRoom);
+Console.WriteLine("price is $" + myPrice);
+Console.WriteLine("im learnin " + myClass);
+Console.WriteLine("press enter 2 move on...");
 Console.ReadLine();
 Console.Clear();
 
-
-//Part 2
+//part 2: name n grad year
 string myName;
 int gradYear;
 
-gradYear = 2026;
-myName = "Sak";
+gradYear = 2026; // grad yr
+myName = "sak"; // name
 
-Console.WriteLine("Part 2:");
-Console.WriteLine("");
-Console.WriteLine("My name is " + myName + " and I'll graduate in " + gradYear);
-Console.WriteLine("");
-Console.WriteLine("Press enter to move to part 3...");
+// output name n grad year
+Console.WriteLine("part 2:");
+Console.WriteLine("my name is " + myName + " n ill grad in " + gradYear);
+Console.WriteLine("press enter 2 move on...");
 Console.ReadLine();
 Console.Clear();
 
-//Part 3
-double cRadius; //cuz the input number could have a decimal that why I put double instead of an int.
+//part 3: calc area of circle
+double cRadius;
 double cArea;
-double finalC; // this is only used for rounding.
-cRadius = 3;
-cArea = ((cRadius * cRadius) * (3.14));
-finalC = Math.Round(cArea, 1);
+double finalC;
 
-Console.WriteLine(("If a circle has a radius of " + cArea) + (" then the area of the circle is " + finalC));
+cRadius = 3; // radius
+cArea = ((cRadius * cRadius) * 3.14); // area of circle
+finalC = Math.Round(cArea, 1); // round 2 1 decimal
+
+// output area
+Console.WriteLine("if a circle's radius is " + cRadius + ", the area is like " + finalC);
 Console.ReadLine();
